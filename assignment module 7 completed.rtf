@@ -1,0 +1,110 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.26100}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qc\ul\b\f0\fs28\lang9 Module -7:- CCNA Network fundamental \ulnone\par
+\par
+
+\pard\sa200\sl276\slmult1\b0\fs24 1. Which of the following messages in the DHCP process are broadcasted?\par
+
+\pard\sa200\sl360\slmult1 Ans:- C. Discover \par
+
+\pard\sa200\sl276\slmult1 2. Which command would you use to ensure that an ACL does not block web-based \par
+
+\pard\sa200\sl360\slmult1 TCP traffic?\par
+Ans:- B. permit tcp any any eq 80 \par
+
+\pard\sa200\sl276\slmult1 3. Explain Network Topologies \par
+1. Bus Topology:- all the devices are connected to a single cable called a bus toplogy\par
+2. ring toplology :- all devices are conneted in a circular form is called as a ring topology \par
+3. star toplogy :- all the devices or nodes are physiacally connected to a central node such as switch/ROUTER \par
+4. TREEE toplogy:- a hierarachical arrangement where devices are interconnetcted \par
+5. mesh toplogy :- in a mesh toplogy all the compters are interconnected with each other \par
+6. hybrid topology:- hybrid toplogies contains two or more nwteork toplogies such as ring ,bus ,mesh \par
+4 .Explain TCP/IP Networking Mode\par
+\'c4ns:- The TCP/IP model is a  framework of computer networking. It stands for Transmission Control Protocol/Internet Protocol which are the core protocols of the network . This model defines how data is transmitted in networks, reliable communication between devices. It consists of four layers: -the Data   Link Layer'  Internet Layer, the Transport Layer, and the Application Layer. Each layer has specific work \par
+5.Explain LAN and WAN Network \par
+1. LAN Network:-  LAN is stand for Local Area Network . A LAN is a group of computers and network devices . LAN are used in  limited area like a house,  building,  office etc. LAN was faster than WANs because that used in shorter distance\par
+2. WAN Network:- WAN stands for Wide Area Network. the WAN is ther largest network in the world that used for country, states etc.  The WAN provides a better and worldwide communication between devices in any part of the world. A Wide Area Network is used in the Business, government organization  and education.\par
+6. explain operation of switch:-\par
+Ans:-\par
+1. MAC address Table:-\par
+Every  device has a  unique MAC address. The switch ensure the which MAC address is connected with which port. When a device sends data to the switch, the switch looks at the source MAC address It stores information in its MAC address table\par
+
+\pard\sa200\sl360\slmult1 2. Forwarding Data:-                                                                                                             When the switch receives a data frame (a unit of data in a network), it checks  the destination MAC address. The switch checks its MAC address table to see if the destination MAC address is already listed. If it finds the destination MAC address, it forwards the frame to the port. If the destination MAC address is not found in the MAC address table, the switch will broadcast the frame to all ports .\par
+3. Segmentation:-                                                                                                                 A switch creates  collision domains for each port. This means that devices connected to different ports on the switch can send and receive data without collisions. every port operates independently, so data is transmitted directly between the sender and the receiver.\par
+4. Frame Forwarding and Switching:-\par
+Once the destination address is determined and the switch has learned where the device is located, the switch forwards the data frame to the corresponding port.\par
+5. Full-Duplex Communication:-\par
+Modern switches support full-duplex communication, meaning devices connected to the switch can send and receive without interference, where  half-duplex systems work  only one direction send or receive a time\par
+7. Describe the purpose and functions of various network devices:-\par
+\fs28 1. Router\fs24 :- A router is a device l that decide routes  packets based on their IP addresses. The router is a Network device. Routers  helps to connects two different networkk together \par
+Functions:- \par
+1. router can manage traffic between diffrent network\par
+2 Assign IP addresses to devices in a local network via DHCP  \par
+\fs28 2. Switches :- \fs24  A switch is a data link layer device. The switch checking error  before forwarding data. switvh check source address and destination address of packet after that deliver packet to the system. switch used to unicast the message between to devices\par
+\fs28 Functions:- \par
+\fs24 1. Support full-duplex communication\par
+2. Forward data between devices on the same network based on MAC address\par
+\fs28 3. HUB:- \fs24 a hub is a small network devices that joints multiple computers. A Hub cannot filter data so data packets are sent to all connected devices. thats why hub is called dummy brodcasting devices \par
+\fs28 Functions:-\par
+\fs24 1. Broadcast data to all connected devices without checking the destination device.\par
+2. Works in half-duplex mode mean only one device can transmit at a time.\fs28\par
+\fs24 4. \fs28 Firewall\fs24 :- firewall is a security device that monitors and controls incoming and outgoing network traffic based on their pre-defined rules\par
+\fs28 Functions:-\par
+\fs24 1. Block or allow traffic based on security policies and protecting against unauthorized person\par
+2. router is a barrier between internal networks and untrusted external network \par
+\par
+7. Make list of the appropriate media, cables, ports, and connectors\par
+1. Appropriate media - \par
+- Twisted pair cable \par
+- Co-axial cable \par
+- fiber optic cable \par
+- wireless media \par
+2. Cables:-\par
+- Ethernet cables\par
+- Fiber optic cables \par
+- Co-axial cable \par
+3. Ports:-\par
+- ethernet ports\par
+- fiber optic ports\par
+- co-axial cable\par
+- usb ports \par
+- wireless ports \par
+- serial ports \par
+3. Connectors:- \par
+- ethernet connectors\par
+- fiber optic connectors \par
+- coaxial conectors \par
+- usb connectors\par
+8. connect switches to other\par
+1. Switch to Router:- \par
+- Ethernet Connection :- Connect the Ethernet port of the switch to the Ethernet port of the router using an Ethernet cable (Cat5e, Cat6, etc.). \par
+- Fiber Connection: The router  need to have an SFP or SFP+ port to support fiber. \par
+2. Switch to Server:-\par
+-Ethernet Connection :-  Servers can be connected to switches through Ethernet cables. \par
+-Fiber Connection:  fiber optic cables might be used  if  server supports SFP/SFP+ ports.\par
+3. Switch to Computer\par
+Ethernet Connection :-  Connect a computer to a switch using a straight Ethernet cable. The computer should have  Ethernet port to connect with switch.\par
+\fs28 9. Define Network devices and hosts\par
+\b\fs32 Network Devices:- \b0\fs24\par
+1. Router- router forwards data packets between two  different networks. Routers using IP address to decide the best path for packets\par
+2. Switch:  switch connects multiple devices in a LAN. It uses MAC addresses to forward data frames to the correct device.\par
+3. Hub: A Hub connects multiple devices in a LAN. a hub broadcasts the  data to all connected devices with hub.\par
+4. Access Point :-  Access point are used to connect wireless devices with wired network \par
+5. firewall:- firwall is  a security device  that manage  incoming and outgoing network traffic based on their security rules. \par
+6. bridge :- bridge  connects two or more network segments\par
+\b\fs28 Hosts:-\par
+\b0\fs24 1. Computer :- computer  connect to a network for internet access, file sharing, and other services.\b\fs28\par
+\b0\fs24 2. Server:- A special computer or system that provides resources, services, or data to other computers  over the network. \par
+3. Printer:- printer  can be accessed over a network to print documents from devices or users.\par
+4. Smartphone:- Mobile are used to send data, access the internet, or communicate with other devices.\par
+5.IoT Devices:- Internet of Things devices such as  camera, smart speakers and sensors are used to send data or perform tasks automatically.\par
+\par
+\par
+\par
+  \par
+\par
+\par
+
+\pard\sa200\sl240\slmult1\par
+}
+ 
